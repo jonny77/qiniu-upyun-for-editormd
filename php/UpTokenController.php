@@ -36,8 +36,8 @@ class UpTokenController extends Controller
         ]
     ];
 
-    private $savePath = '';//文件保存路径
-    private $date = '';
+    private $savePath = '/';//文件保存路径
+    private $date;
 
     public function __construct()
     {
